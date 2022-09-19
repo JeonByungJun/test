@@ -21,4 +21,4 @@ jobs:
         with:
           config-name: release-drafter-config.yml
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
