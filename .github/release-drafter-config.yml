@@ -7,7 +7,7 @@ categories:
     label: 'bug'
   - title: 'ETC'
     label: 'documentation'
-change-template: '- $TITLE #$NUMBER @$AUTHOR '
+change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
 version-resolver:
   major:
     labels:
@@ -20,5 +20,6 @@ version-resolver:
       - 'patch'
   default: patch
 template: |
-  ## Uncategorized
+  ## Changes
+
   $CHANGES
